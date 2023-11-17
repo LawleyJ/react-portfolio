@@ -11,12 +11,12 @@
 
 h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 h2 {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.75rem;
 }
 
 #playerStats-lines {
@@ -28,30 +28,51 @@ h2 {
     display: block;
     background-color: white;
     height: 0.2rem;
-    width: 6.2rem;
+    width: 6rem;
 }
 
 #playerStats-lines-thin {
     display: block;
     background-color: lightgray;
     height: 0.1rem;
-    width: 5rem;
+    width: 6rem;
 }
 
 @media (max-width: 1100px){
+    #playerStats {
+        
+        left: 50%;
+        transform: translateX(-50%);
+        width: 8rem;
+        height: 2.5rem;
+        top: 13rem;
+
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2, h3, p {
+        font-size: 1rem;
+
+    }
+}
+
+ /* @media (max-height: 500px){
     #playerStats {
         left: 50%;
         transform: translateX(-50%);
         width: 8rem;
         height: 2.5rem;
-        top: 2rem;
+        top: 12rem;
 
     }
     h1 {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
     h2, h3, p {
-        font-size: 0.7rem;
+        font-size: 1rem;
 
     }
-}
+} */
+
+

@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 body{
-    font-family: "Russo One", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     color: white;
     -webkit-tap-highlight-color: transparent;
     
@@ -13,15 +12,15 @@ body{
     --cyan: #25afce;
     --transparent: #00000000;
     --radius-left: 3rem 0 0 3rem;
-    --radius-left: 0 3rem 3rem 0;
+    --radius-right: 0 3rem 3rem 0;
 }
 
-button:hover, 
-.class-sub-container a:hover, 
+button:hover,
+.class-sub-container a:hover,
 .project-item:hover,
 .skill-item:hover,
 .item:not(.active):hover,
-.sub-container-2:not(.active-subeading):hover,
-.sub-container-3:not(.active-subeading):hover {
-    background-image: linear-gradient(90deg, #ffffff00, #ffffff42 50%, #ffffff00);
+.sub-container-2:not(.active-subheading):hover,
+.sub-container-3:not(.active-subheading):hover {
+  background-image: linear-gradient(90deg, #ffffff00, #ffffff42 50%, #ffffff00);
 }
