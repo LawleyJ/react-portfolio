@@ -6,7 +6,7 @@
 .avatar.about {
     height: 89vh;
     bottom: -9vh;
-    left: 50%;
+    left: 15%;
     transform: translateX(-50%);
 }
 
@@ -44,8 +44,9 @@
         
         clip-path: circle(15% at 50% 35%);
         background-color: rgb(7, 66, 7);
-        
-
+    
     }
+
+    
     
 }
