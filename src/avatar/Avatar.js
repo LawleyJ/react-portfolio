@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types"
 import "../styles/avatar.css"
-import avatar from "../assets/avatar.png"
+import avatar from "../assets/AIAvatar2.png"
 
 const Avatar = ({page}) => {
   const avatarClass = `avatar ${page}`;
