@@ -46,21 +46,21 @@ export default class AboutMenu extends Component {
     return (
       <>
         <div className="menu">
-            {menuItems.map((item, index) => {
+            {menuItems.map((item, index) => (
               <AboutMenuItem 
                 key = {index}
                 title = {item}
                 active = {activeMenuItem === index + 1}
                 onClick={() => this.handleMenuItemClick(index + 1)}
               />
-            })}
+            ))}
         </div>
         <div className="sub-container">
           <div className="icon-title-container">
             <img src={activeMenuIcon} alt={activeMenuTitle} className="icon"/>
             <h3>{activeMenuTitle}</h3>
           </div>
-          {subHeadings.map((subheading, index) => {
+          {subHeadings.map((subheading, index) => (
             <AboutSubheading
               key = {index}
               title = {subheading.title}
@@ -70,7 +70,7 @@ export default class AboutMenu extends Component {
               onClick={() => this.handleSubheadingClick(index + 1)}
               menuItem = {activeMenuItem}
             />
-          })}
+          ))}
         </div>
       </>
     )
