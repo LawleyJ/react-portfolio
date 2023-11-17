@@ -9,7 +9,9 @@ const Avatar = ({page}) => {
 
   return (
     <>
+        
         <span className={spanClass}></span>
+        
         <img src={avatar} className={avatarClass} alt="avatar"/>
     </>
   )

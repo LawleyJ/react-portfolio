@@ -8,7 +8,6 @@ import Contact from "./contact/Contact"
 import "./styles/app.css"
 import Background from "./background/Background.js";
 import PlayerStats from "./playerStats/PlayerStats.js";
-import Avatar from "./avatar/Avatar.js";
 
 const App = ()  => {
   return (
