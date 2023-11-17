@@ -1,10 +1,16 @@
-import React, { Component } from 'react'
-import "../styles/skillsMenu.css"
+import React, { Component } from 'react';
+import SkillsMenu from "./SkillsMenu.js"
+import Avatar from '../avatar/Avatar.js';
 
-export default class Skills extends Component {
+export default class About extends Component {
   render() {
     return (
-      <div>Skills</div>
+      <>
+        
+        <Avatar page="skills"/>
+        <SkillsMenu />
+
+      </>
     )
   }
 }

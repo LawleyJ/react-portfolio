@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import personalIcon from "../assets/moebius-triangle.png";
 import educationIcon from "../assets/upgrade.png";
 import careerIcon from "../assets/triple-corn.png";
-import AboutMenuItem from './AboutSubheading';
+import AboutSubheading from './AboutSubheadings';
 import subheadingsData from './subheadingsData';
-import AboutSubheading from './AboutMenuItem';
+import AboutMenuItem from './AboutMenuItems';
 
 export default class AboutMenu extends Component {
 
@@ -32,7 +32,7 @@ export default class AboutMenu extends Component {
 
   render() {
     const {activeMenuItem, activeSubheading} = this.state;
-    const menuItems = ["PERSONAL", "EDUCATION", "CAREER"];
+    const menuItems = ["PERSONAL", "CAREER", "EDUCATION"];
     const activeMenuTitle = menuItems[activeMenuItem -1];
     const activeMenuIcon = 
       activeMenuTitle === "PERSONAL" ? personalIcon : activeMenuTitle === "EDUCATION" ? educationIcon : careerIcon;

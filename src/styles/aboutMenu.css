@@ -33,6 +33,10 @@
     top: 32%;
     right: 10vw;
     cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.363);
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 5%;
+
   }
   
   .active-subheading {
@@ -114,15 +118,17 @@
     }
   }
   @media (max-width: 700px) {
+    
     .sub-container {
       width: 15rem;
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translateX(-50%);
     }
     .title {
       font-size: 0.8rem;
-      padding-right: 2.5rem;
+      padding-right: 1.5rem;
+      
     }
     .active-subheading .p-container {
       font-size: 0.8rem;
