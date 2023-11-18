@@ -144,15 +144,11 @@
 }
 
 
-
-@media (max-width: 850px){
+@media (max-width: 850px) {
     .menu {
         width: 10rem;
         top:  20%;
         left: 35%;
         transform: translateX(-82%);
-        
     }
-
-    
 }
