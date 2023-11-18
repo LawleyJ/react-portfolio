@@ -154,10 +154,4 @@
     }
   }
 
-  @media (max-height: 680px){
-    .sub-container{
-        top: 35%;
-        width: 20rem;
-        
-    }
-  }
+ 
