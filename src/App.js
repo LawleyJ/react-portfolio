@@ -9,6 +9,8 @@ import "./styles/app.css"
 import Background from "./background/Background.js";
 import PlayerStats from "./playerStats/PlayerStats.js";
 
+
+
 const App = ()  => {
   return (
     <Router>
@@ -21,6 +23,8 @@ const App = ()  => {
         <Route path="/contact" element={<Contact />}/>
       </Routes>
       <PlayerStats />
+      
+      
     </Router>
   );
 }

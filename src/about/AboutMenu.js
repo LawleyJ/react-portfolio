@@ -5,6 +5,7 @@ import careerIcon from "../assets/triple-corn.png";
 import AboutSubheading from './AboutSubheadings';
 import subheadingsData from './subheadingsData';
 import AboutMenuItem from './AboutMenuItems';
+import Resume from "../resume/Resume.js"
 
 export default class AboutMenu extends Component {
 
@@ -46,6 +47,7 @@ export default class AboutMenu extends Component {
     return (
       <>
         <div className="menu">
+            {/* <Resume id="resume"/> */}
             {menuItems.map((item, index) => (
               <AboutMenuItem 
                 key = {index}
