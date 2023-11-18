@@ -43,7 +43,7 @@ export default class SkillsMenu extends Component {
 
   render() {
     const { activeMenuItem } = this.state;
-    const menuItems = ["FRONT-END", "BACK-END"];
+    const menuItems = ["FRONT-END", "BACK-END", "SOFTWARE TOOLS"];
 
     const currentIcon = activeMenuItem === 1 ? frontendIcon : backendIcon;
 
