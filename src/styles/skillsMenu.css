@@ -45,13 +45,7 @@
     background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
 }
 
-.skill-icon {
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    top:1.8rem;
-    left: 8rem;
-}
+
 
 .skill-sub-container-1 h3,
 .skill-sub-container-2 h3,
@@ -110,9 +104,7 @@
     .skill-item.activeSkill .skill-title {
         font-size: 1rem;
     }
-    .skill-icon {
-        display: none;
-    }
+    
     .level-point {
         width: 1.2rem;
         height: 1rem;

@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import "../styles/skillsMenu.css"
 import classNames from 'classnames'
 import skills from "./skillsData.js";
-import frontendIcon from "../assets/eagle-emblem.png";
-import backendIcon from "../assets/hawk-emblem.png";
+
 
 
 export default class SkillsMenu extends Component {
@@ -45,7 +44,7 @@ export default class SkillsMenu extends Component {
     const { activeMenuItem } = this.state;
     const menuItems = ["FRONT-END", "BACK-END", "SOFTWARE TOOLS"];
 
-    const currentIcon = activeMenuItem === 1 ? frontendIcon : backendIcon;
+    
 
     return (
       <div className="skill-menu">
@@ -61,7 +60,7 @@ export default class SkillsMenu extends Component {
             <h2 className="skill-title">{item}</h2>
           </div>
         ))}
-        <img className="skill-icon" src={currentIcon} alt="current skill" />
+        
         <div className="skill-sub-container">
           {this.renderContent(skills[activeMenuItem])}
         </div>
