@@ -22,11 +22,11 @@ consistently exceed goals.                   </p>
     ],
     2: [
         {
-            title: "Lead QA Engineer (2020-Present)",
+            title: "Lead QA Engineer ",
             content: (
                 <>
                     <h4>
-                        Reveal Technology
+                        Reveal Technology (2020-Present)
                     </h4>
                     <ul>
                         <li>Directed the software quality management process, ensuring seamless transitions from development to the successful adoption of the product by end-users.</li>
@@ -37,12 +37,14 @@ consistently exceed goals.                   </p>
             )
         },
         {
-            title: "QA Special Projects Lead (2018-2020)",
+            title: "QA Special Projects Lead ",
             content: (
                 <>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <h4>Geomni/Versik Analytics (2018-2020)</h4>
+                    <ul>
+                        <li>Collaborated on and innovated new ideas to drive productivity and efficiency improvements within the QA department.</li>
+                        <li>Effectively spearheaded and supervised a team of six analysts/testers to achieve successful outcomes.</li>
+                    </ul>
                 </>
 
             )

@@ -62,9 +62,19 @@
     border-radius: 0.5rem 3rem 0.5rem 0.5rem;
     opacity: 0.9;
   }
-  .project-sub-container p {
+  .project-sub-container p, a {
     font-size: 0.875rem;
   }
+
+  .project-sub-container a {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    width: 15rem;
+}
   
   .link-container a {
     color: white;
@@ -78,6 +88,10 @@
   .link-container {
     display: flex;
     justify-content: space-around;
+  }
+
+  .link-container a:nth-child(2) {
+    display: none;
   }
   
   @media (max-width: 1100px) {
@@ -103,7 +117,7 @@
       flex-direction: column;
       align-items: center;
     }
-    .project-menu p {
+    .project-menu p, .project-menu a {
       font-size: 0.7rem;
     }
     .project-sub-container {

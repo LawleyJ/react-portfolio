@@ -1,44 +1,33 @@
-import projectOne from "../assets/project-1.png";
-import projectTwo from "../assets/project-2.png";
-import projectThree from "../assets/project-3.png";
+import reactProject from "../assets/reactPortfolio.png";
+import ecommerce from "../assets/ecommerce.jpg";
+
 
 const projects = {
     1: {
-        title: "Social Media Platform",
-        image: projectOne,
+        title: "ReactJS Portfolio Website",
+        image: reactProject,
         description: (
             <>
-                <p>                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                </p>
+                <p>First React project. Inspried by Ademir Alijagic tutorial: <a href="https://www.youtube.com/watch?v=ohnrC3gh9YI&ab_channel=HowtoBecomeaDeveloper" target = "_blank" rel= "noopener noreferrer">React Portfolio Website Tutorial</a> </p>
             </>
         ),
-        github: "https://github.com",
-        demo: "https://github.com",
+        github: "https://github.com/LawleyJ/react-portfolio",
+        demo: "",
     },
     2: {
-        title: "E-commerce Website",
-        image: projectTwo,
+        title: "E-commerce Website (Coming Soon...)",
+        image: ecommerce,
         description: (
             <>
-                <p>                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <p>
+                    E-commerce website built with NExt.js and TypeScipt. Content managed with Sanity.io. 
                 </p>
             </>
         ),
-        github: "https://github.com",
-        demo: "https://github.com",
+        github: "https://github.com/LawleyJ/eCommerceWeb",
+        demo: "",
     },
-    3: {
-        title: "Spotify Replica",
-        image: projectThree,
-        description: (
-            <>
-                <p>                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                </p>
-            </>
-        ),
-        github: "https://github.com",
-        demo: "https://github.com",
-    },
+    
 }
 
 export default projects;
