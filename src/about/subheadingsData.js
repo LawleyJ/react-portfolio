@@ -1,3 +1,8 @@
+import ResumePDF from "../assets/Resume.pdf"
+import LinkedinIcon from "../assets/linkedin.png";
+import GithubIcon from "../assets/github.png"
+import ResumeIcon from "../assets/resume.png"
+
 const subheadingsData = {
     1: [
         {
@@ -58,7 +63,40 @@ consistently exceed goals.                   </p>
 
             )
         },
-    ]
+    ],
+    4: [
+        {
+            
+            title: (<a className="resume" href={ResumePDF} target="_blank"
+                    rel="noreferrer">
+                    Full Resume
+                    </a>),
+            content: (
+                <>
+                </>
+            ),
+            icon: ResumeIcon
+            
+        },
+        {
+            title: <a href="https://github.com/LawleyJ" target = "_blank" rel= "noreferrer">Github</a>,
+            content: (
+                <>
+                </>
+
+            ),
+            icon: GithubIcon
+        },
+        {
+            title: <a href="https://www.linkedin.com/in/joshua-lawley/" target = "_blank" rel= "noreferrer">LinkedIn</a>,
+            content: (
+                <>
+                </>
+
+            ),
+            icon: LinkedinIcon
+        },
+    ],
 };
 
 export default subheadingsData;
