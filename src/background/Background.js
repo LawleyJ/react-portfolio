@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/background.css";
-import video from "../assets/background.mov";
+import video from "../assets/background.mp4";
 import fallBackImage from "../assets/fallback-image.png";
 
 const Background = () =>{
