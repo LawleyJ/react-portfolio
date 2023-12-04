@@ -116,6 +116,7 @@
       width: 28rem;
       flex-direction: column;
       align-items: center;
+      top: 30%;
     }
     .project-menu p, .project-menu a {
       font-size: 0.7rem;
